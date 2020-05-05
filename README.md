@@ -1,8 +1,9 @@
 [Webhook](https://github.com/adnanh/webhook/) Dockerized
 =================
 
-## Custom
-We simply added git package to execute git pull from webhook
+## This file is customised by repo qrzeller
+We simply added git package to execute git pull from webhook.
+The rest is untouched and docker image dependent from initial repo.
 
 ## Running webhook in Docker
 The simplest usage of [almir/webhook](https://hub.docker.com/r/almir/webhook/) image is for one to host the hooks JSON file on their machine and mount the directory in which those are kept as a volume to the Docker container:
